@@ -1,0 +1,33 @@
+.wrapper1 {
+  width: 94%;
+  margin: 5vh auto 5vh auto;
+  background: #f3eded;
+  padding: 10px;
+  outline: 8px double #eee;
+
+  h1 {
+    color: #165f68;
+  }
+
+  .submitBtn {
+    display: block;
+    margin-top: 2vw;
+    width: 15vw;
+    height: 6vh;
+    background: #baba92;
+    color: #fdfdfd;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 1px 3px 7px #948e8e;
+    font-weight: 600;
+  }
+
+  .submitBtn:hover {
+    background: #9b9b58;
+    transform: scale(1.02);
+    transition: 0.1s ease-in-out;
+    box-shadow: 1px 6px 7px #8c8c8c;
+  }
+}

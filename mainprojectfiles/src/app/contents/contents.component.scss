@@ -1,0 +1,27 @@
+.content-wrapper {
+  display: block;
+  margin: auto;
+
+  .card-container {
+    display: inline-flex;
+    margin: 4% auto 0 auto;
+
+    .custom-card {
+      width: 28%;
+      background: linear-gradient(to right bottom, #444467, #bcc4ca);
+      font-size: 14px;
+      padding: 10px;
+      margin: 0 5% 5% 0;
+      border-radius: 0;
+      letter-spacing: 2px;
+      color: #efe7e7;
+      box-shadow: 8px 10px 10px #c8c5c5;
+      height: 100%;
+      overflow-y: hidden;
+    }
+
+    .custom-card:last-child {
+      margin: 0;
+    }
+  }
+}

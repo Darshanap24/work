@@ -1,0 +1,13 @@
+<div class="toaster-container">
+    <div class="toast" *ngFor="let toast of toastData; let i = index" (mouseout)="resetTime(toast, i)">
+        <!-- <ng-container (ngChange)="toasterTimeout(toast,i)"> -->
+            <div class="title">
+                <span>{{toast.message}}</span>
+            </div>
+        <button class="closeButton" (click)="closeToaster(toast, i)">
+            x
+        </button>
+    <!-- </ng-container> -->
+    </div>
+</div>
+

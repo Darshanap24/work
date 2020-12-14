@@ -1,0 +1,10 @@
+<div class="wrapper2">
+    <div class="form-fields">
+        <h1>Enter the text to view in toaster</h1>
+        <input type="text" [(ngModel)]="toastMsg" id="message" class="inputBx"/>
+        <button class="submitBtn" (click)="openToast(toastMsg)">Submit</button>
+    </div>
+</div>
+
+
+<app-toaster *ngIf="showToaster" [toastData]="global.toast" ></app-toaster>

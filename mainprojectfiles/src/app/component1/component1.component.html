@@ -1,0 +1,7 @@
+
+<div class="wrapper1">
+    <h1>Click on the button below to get toast notification</h1>
+    <button (click)="openToast()" class="submitBtn">Click here</button>
+</div>
+
+<app-toaster *ngIf="showToaster" [toastData]="global.toast"></app-toaster>

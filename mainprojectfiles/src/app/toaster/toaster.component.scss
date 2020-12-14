@@ -1,0 +1,60 @@
+.toaster-container {
+  position: absolute;
+  left: 50%;
+  bottom: -15%;
+  transform: translate(-50%, 0);
+  // width: 100%;
+  display: block;
+
+  .toast {
+    position: relative;
+    padding: 6%;
+    background: #149dff;
+    color: #fff;
+    border-radius: 2px;
+    font-size: 14px;
+    width: 30vw;
+    margin: auto auto 10px auto;
+    animation-name: moveInBtn;
+    animation-duration: 0.2s;
+    animation-timing-function: ease-in-out;
+    box-shadow: 0px 2px 7px #8c8c8c;
+
+    .title {
+      text-transform: capitalize;
+    }
+
+    .closeButton {
+      position: absolute;
+      top: 10%;
+      font-family: sans-serif;
+      right: 5%;
+      font-size: 14px;
+      cursor: pointer;
+      opacity: 0.8;
+      border: none;
+      background: transparent;
+      color: #fff;
+      outline: none;
+    }
+
+    .closeButton:hover {
+      opacity: 1;
+      font-size: 16.5px;
+      transform: translate(10%, -10%);
+      animation-duration: 1s;
+      animation-timing-function: ease-out;
+    }
+  }
+
+  .toast:last-child {
+    margin-bottom: 0;
+  }
+
+  .toast:hover {
+    background-color: #54b4fa;
+    transform: scale(1.02);
+    transition: 1s ease-in-out;
+    box-shadow: 1px 6px 7px #8c8c8c;
+  }
+}
