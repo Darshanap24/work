@@ -3,7 +3,7 @@
   background-image: linear-gradient(to right bottom, rgb(111 175 213 / 52%), rgb(143 40 180 / 37%)), url(../../assets/images/nat-7.jpg);
   background-size: cover;
   background-position: top;
-  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   position: relative;
 }
 
